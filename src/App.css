@@ -1,4 +1,10 @@
-html, body{
+*{
   margin: 0;
-  background-color: aqua;
+  padding: 0;
+  
+}
+
+html, body{
+  font-size: 18px;
+  background-color: #f5f6f7;
 }

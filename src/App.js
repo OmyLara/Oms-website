@@ -1,10 +1,17 @@
 import './App.css';
-import Boton from "./Components/Boton";
+import Barra from "./Components/Barra";
 
 function App() {
   return (
     <div className="App">
-      <Boton />
+      
+        <Barra 
+        position='Front End Developer'
+        aboutme='About Me'
+        experience='Experience'
+        blog='Blog'
+        />
+
 
 
     </div>
