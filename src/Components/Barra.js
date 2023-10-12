@@ -1,35 +1,41 @@
 import React from "react";
 import "./Barra.css";
+import { Link, Outlet} from "react-router-dom";
 
-function Barra ({position,aboutme,experience,blog}){
+export default function Barra (){
+
     
         return (
-        <nav className="menu">
 
-                <div className="titulo">
-                    <a href="#">{position}</a>
-                </div>
+<>
+<nav className="menu">
 
-            <div className="seg">
+        <div className="titulo">
+            <Link to='/'>Front End Developer</Link>
+        </div>
 
-                <div id="About-me">
-                    <a href="">{aboutme}</a>
-                </div>
+        <div className="seg">
 
-                <div id="Experience">
-                    <a href="">{experience}</a>
-                </div>
-
-                <div id="Blog">
-                    <a href="">{blog}</a>
-                </div>
-
+            <div id="About-me">
+                <Link to="./About-me">About Me</Link>
             </div>
-        </nav>
+
+            <div id="Experience">
+                <Link to="./Experience">Experience</Link>
+            </div>
+
+            <div id="Contact">
+                <Link to="./Contact">Contact</Link>
+            </div>
+
+        </div>
+</nav>
+<Outlet />
+</>
+            
 
 
         );
     
 }
 
-export default Barra;

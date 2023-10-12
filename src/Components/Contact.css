@@ -1,0 +1,55 @@
+.contactame{
+    width: 40%;
+    height: auto;
+    margin-top: 200px;
+    margin-left: 33%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #0e5078;
+}
+
+.contactame #name,#correo,#suggestion{
+    width: 50%;
+    height:20px;
+    border: 2px solid #0e5078;
+}
+
+.contactame #suggestion{
+    width: 70%;
+    height: 100px;
+    resize:none;
+}
+
+.contactame label{
+    color: rgb(40, 135, 195);
+    font-size: 1.5rem;
+
+}
+
+
+.contactame button{
+width:30%;
+height: 25px;
+background-color: rgb(40, 135, 195);
+color: aliceblue;
+cursor: pointer;
+border: rgb(40, 135, 195);
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    margin-top:600px;
+    margin-left: 37%;
+    position: absolute;
+    width: 30%;
+}
+
+.icons .ima-1, .ima-2{
+    width: 70px;
+    height: 70px;
+}
+
