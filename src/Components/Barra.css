@@ -11,15 +11,16 @@
     z-index: 10;
 
 }
-.titulo{
+.menu .titulo{
         margin-left: 50px;
+        font-size: 30px;
+
 }
 
 
 .menu .titulo a{
     color: whitesmoke;
     font-family: 'Silkscreen', cursive;
-    font-size: 30px;
     text-decoration: none;
 
 }
@@ -61,16 +62,18 @@
 
 
 
+/* ----------MEDIA QUERIES ----------*/
 
-
-@media screen and (width: 320px){
+@media only screen and (max-width: 320px){
   .menu {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
   }
+  
+  
   .menu .titulo a{
-    font-size: 12px;
+    font-size: 40%;
     position: absolute;
     margin-left: -35px;
     margin-top: -10px;
@@ -84,7 +87,7 @@
 
   }
   .menu .seg a{
-    font-size: 0.25rem;
+    font-size: 13%;
     background-color: transparent;
     margin-top: -10px;
 
@@ -92,28 +95,61 @@
 
 }
 
-@media screen and (width: 480px){
+@media only screen and (min-width: 320px){
   .menu {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
   }
+  
+  
+  .menu .titulo a{
+    font-size: 13px;
+    position: absolute;
+    margin-left: -35px;
+    margin-top: -10px;
+
+  }
+
+  .menu .seg {
+    position: absolute;
+    margin-left: 35%;
+    display: flex;
+
+  }
+  .menu .seg a{
+    font-size: 20%;
+    background-color: transparent;
+    margin-top: -10px;
+
+  }
+
+}
+
+@media only screen and (min-width:600px){
+  .menu {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+  }
+  
+  
   .menu .titulo a{
     font-size: 16px;
     position: absolute;
-    margin-left: -15px;
+    margin-left: -35px;
     margin-top: -10px;
 
   }
 
   .menu .seg {
     position: absolute;
-    margin-left: 40%;
+    margin-left: 45%;
     display: flex;
 
   }
   .menu .seg a{
-    font-size: 0.6rem;
+    font-size: 40%;
     background-color: transparent;
     margin-top: -10px;
 
@@ -121,28 +157,31 @@
 
 }
 
-@media screen and (width: 768px){
+
+@media only screen and (min-width:768px){
   .menu {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
   }
+  
+  
   .menu .titulo a{
-    font-size: 2rem;
+    font-size: 60%;
     position: absolute;
-    margin-left: -15px;
-    margin-top: -20px;
+    margin-left: -35px;
+    margin-top: -10px;
 
   }
 
   .menu .seg {
     position: absolute;
-    margin-left: 50%;
+    margin-left: 55%;
     display: flex;
 
   }
   .menu .seg a{
-    font-size: 1rem;
+    font-size: 40%;
     background-color: transparent;
     margin-top: -10px;
 
@@ -150,28 +189,31 @@
 
 }
 
-@media screen and (width: 1024px){
+
+@media only screen and (min-width:992px){
   .menu {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
   }
+  
+  
   .menu .titulo a{
-    font-size: 2rem;
+    font-size: 80%;
     position: absolute;
-    margin-left: -15px;
-    margin-top: -20px;
+    margin-left: -35px;
+    margin-top: -15px;
 
   }
 
   .menu .seg {
     position: absolute;
-    margin-left: 50%;
+    margin-left: 55%;
     display: flex;
 
   }
   .menu .seg a{
-    font-size: 1.5rem;
+    font-size: 60%;
     background-color: transparent;
     margin-top: -10px;
 
@@ -179,28 +221,32 @@
 
 }
 
-@media screen and (min-width: 1025px){
+
+
+@media only screen and (min-width:1200px){
   .menu {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
   }
+  
+  
   .menu .titulo a{
-    font-size: 2rem;
+    font-size: 85%;
     position: absolute;
-    margin-left: -15px;
-    margin-top: -20px;
+    margin-left: -35px;
+    margin-top: -15px;
 
   }
 
   .menu .seg {
     position: absolute;
-    margin-left: 60%;
+    margin-left: 65%;
     display: flex;
 
   }
   .menu .seg a{
-    font-size: 1.9rem;
+    font-size: 70%;
     background-color: transparent;
     margin-top: -10px;
 
