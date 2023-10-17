@@ -1,31 +1,29 @@
 
-.main{
-  background-color:#a317d2 ;
-}
 
-.main .fondo{
+
+ .fondo{
     width: 100%;
     height: 100%;
     margin-top: 70px;
     position: absolute;
   }
 
-  .main .fondo .programming{
+   .fondo .programming{
     line-height: .7;
     margin-left: 35%;
     margin-top: 20px;
     font-size: 3rem;
   }
 
-  .main .fondo .programming .r{
+  .fondo .programming .r{
     color: rgb(0, 0, 0);
   }
 
-  .main .fondo .programming .o{
+   .fondo .programming .o{
     color: rgb(255, 255, 255);
   }
 
-  .main .fondo .DA{
+  .fondo .DA{
     width: auto;
     height: auto;
     margin-top: 50px;
@@ -35,55 +33,270 @@
   
   }
 
-  .main .DA .titulo{
+  .DA .titulo{
     color: #ffffff;
     margin-left: 10px;
   }
   
-  .main .fondo .DA ul{
+  .fondo .DA ul{
     list-style: none;
     justify-content: center;
     color: #ffffff;
 
   }
-
-  .main .fondo .DA-2{
-    width: auto;
-    height: auto;
-    margin-top: 130px;
-    margin-left: 800px;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    color: azure;
-    position: absolute;
-
-  }
-  .main .fondo .DA-2 .titulo{
-    margin-left: 250px;
-  }
-
-  .main .fondo  .DA-2 img{
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-    margin-left: 280px ;
-  }
-
-  .main .fondo .DA ul{
-    list-style:circle;
-  }
-
-  .main .fondo .DA-2 ul{
-    list-style:circle;
-    margin-left:100px
-  }
-
-  .main .fondo  .DA img{
+   
+  .fondo  .DA img{
     width: 50px;
     height: 50px;
     cursor: pointer;
     margin-left: 180px ;
   }
 
+  .fondo footer{
+    margin-top: 70%;
+    width: auto;
+    display: flex;
+    margin-left: 70%;
+    color: #e5e8eb;
+    cursor: pointer;
+
+  }
+
   
+  @media screen and (max-width:320px){
+    
+     .fondo .programming{
+      line-height: .7;
+      margin-top: 20px;
+      margin-left: 30%;
+      font-size: 90%;
+    }
+
+/* DA 1 */
+     .fondo .DA{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      margin:10% 0px 0px 0px
+    }
+     .fondo .DA .titulo{
+      font-size: 90%;
+    }
+     .fondo .DA img{
+      width: 40px;
+      height: 30px;
+      margin-left: 45%;
+    }
+    .fondo .DA ul{
+      font-size: 50%;
+      text-decoration: dotted;
+    }
+
+  }
+
+
+  @media screen and (min-width:320px){
+    
+    .fondo .programming{
+      line-height: .7;
+      margin-top: 20px;
+      margin-left: 30%;
+      font-size: 150%;
+    }
+
+/* DA 1 */
+     .fondo .DA{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      margin:10% 0px 0px 0px
+    }
+     .fondo .DA .titulo{
+      font-size: 100%;
+    }
+     .fondo .DA img{
+      width: 40px;
+      height: 30px;
+      margin-left: 47%;
+    }
+    .fondo .DA ul{
+      font-size: 70%;
+      text-decoration: dotted;
+    }
+    .fondo footer{
+      margin-top: 40%;
+      width: auto;
+      display: flex;
+      margin-left: 80%;
+      color: #e5e8eb;
+      cursor: pointer;
+    }
+  }
+  
+ 
+  @media screen and (min-width:600px){
+    .fondo .programming{
+      line-height: .7;
+      margin-top: 20px;
+      margin-left: 30%;
+      font-size: 180%;
+    }
+
+/* DA 1 */
+     .fondo .DA{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      margin:10% 0px 0px 0px
+    }
+     .fondo .DA .titulo{
+      font-size: 100%;
+    }
+     .fondo .DA img{
+      width: 40px;
+      height: 30px;
+      margin-left: 47%;
+    }
+    .fondo .DA ul{
+      font-size: 70%;
+      text-decoration: dotted;
+    }
+    .fondo footer{
+      margin-top: 25%;
+      width: auto;
+      display: flex;
+      margin-left: 80%;
+      color: #e5e8eb;
+      cursor: pointer;
+    }
+  }
+
+  @media screen and (min-width:768px){
+    .fondo .programming{
+      line-height: .7;
+      margin-top: 20px;
+      margin-left: 30%;
+      font-size: 200%;
+    }
+
+/* DA 1 */
+     .fondo .DA{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      margin:10% 0px 0px 0px
+    }
+     .fondo .DA .titulo{
+      font-size: 150%;
+      margin-top: -5%;
+    }
+     .fondo .DA img{
+      width: 40px;
+      height: 30px;
+      margin-left: 48%;
+    }
+    .fondo .DA ul{
+      font-size: 80%;
+      text-decoration: dotted;
+    }
+    .fondo footer{
+      margin-top: 25%;
+      width: auto;
+      display: flex;
+      margin-left: 80%;
+      color: #e5e8eb;
+      cursor: pointer;
+      font-size: 120%;
+
+    }
+  }
+
+  @media screen and (min-width:992px){
+    .fondo .programming{
+      line-height: .7;
+      margin-top: 20px;
+      margin-left: 35%;
+      font-size: 200%;
+    }
+
+/* DA 1 */
+     .fondo .DA{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      margin:10% 0px 0px 0px
+    }
+     .fondo .DA .titulo{
+      font-size: 150%;
+      margin-top: -5%;
+    }
+     .fondo .DA img{
+      width: 40px;
+      height: 30px;
+      margin-left: 48%;
+    }
+    .fondo .DA ul{
+      font-size: 80%;
+      text-decoration: dotted;
+    }
+    .fondo footer{
+      margin-top: 25%;
+      width: auto;
+      display: flex;
+      margin-left: 80%;
+      color: #e5e8eb;
+      cursor: pointer;
+      font-size: 150%;
+    }
+  }
+
+  @media screen and (min-width:1200px){
+    .fondo .programming{
+      line-height: .7;
+      margin-top: 20px;
+      margin-left: 40%;
+      font-size: 230%;
+    }
+
+/* DA 1 */
+     .fondo .DA{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      margin:10% 0px 0px 0px
+    }
+     .fondo .DA .titulo{
+      font-size: 190%;
+      margin-top: -5%;
+    }
+     .fondo .DA img{
+      width: 50px;
+      height: 40px;
+      margin-left: 48%;
+    }
+    .fondo .DA ul{
+      font-size: 110%;
+      text-decoration: dotted;
+    }
+    .fondo footer{
+      margin-top: 25%;
+      width: auto;
+      display: flex;
+      margin-left: 80%;
+      color: #e5e8eb;
+      cursor: pointer;
+      font-size: 150%;
+    }
+  }
