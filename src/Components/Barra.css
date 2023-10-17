@@ -87,7 +87,7 @@
 
   }
   .menu .seg a{
-    font-size: 20%;
+    font-size: 25%;
     background-color: transparent;
     margin-top: -10px;
     margin-left: -10%;
@@ -103,7 +103,7 @@
   
   
   .menu .titulo a{
-    font-size: 35%;
+    font-size: 40%;
     position: absolute;
     margin-left: -35px;
     margin-top: 5%;
@@ -118,7 +118,8 @@
     margin-left: 40%;
   }
   .menu .seg a{
-    font-size: 22%;
+    font-size: 30%;
+    width: 100%;
     background-color: transparent;
     padding: 0px;
     margin-top: -25px;
@@ -134,21 +135,49 @@
   
   
   .menu .titulo a{
-    font-size: 40%;
+    font-size: 45%;
     position: absolute;
     margin-left: -35px;
     margin-top: -10px;
-
   }
 
   .menu .seg {
     position: absolute;
-    margin-left: 40%;
+    margin-left: 45%;
     display: flex;
 
   }
   .menu .seg a{
-    font-size: 26%;
+    font-size: 30%;
+    background-color: transparent;
+    margin-top: -10px;
+
+  }
+
+}
+
+@media only screen and (min-width: 450px){
+  .menu {
+    display:grid;
+    align-items: center;
+  }
+  
+  
+  .menu .titulo a{
+    font-size: 55%;
+    position: absolute;
+    margin-left: -35px;
+    margin-top: -10px;
+  }
+
+  .menu .seg {
+    position: absolute;
+    margin-left: 50%;
+    display: flex;
+
+  }
+  .menu .seg a{
+    font-size: 40%;
     background-color: transparent;
     margin-top: -10px;
 
@@ -165,7 +194,7 @@
   
   
   .menu .titulo a{
-    font-size: 16px;
+    font-size: 18px;
     position: absolute;
     margin-left: -35px;
     margin-top: -10px;
@@ -174,12 +203,12 @@
 
   .menu .seg {
     position: absolute;
-    margin-left: 45%;
+    margin-left: 55%;
     display: flex;
 
   }
   .menu .seg a{
-    font-size: 40%;
+    font-size: 50%;
     background-color: transparent;
     margin-top: -10px;
 
@@ -238,7 +267,7 @@
 
   .menu .seg {
     position: absolute;
-    margin-left: 55%;
+    margin-left: 65%;
     display: flex;
 
   }

@@ -138,11 +138,11 @@
       text-decoration: dotted;
     }
     .fondo footer{
-      margin-top: 40%;
+      margin-top: 55%;
       width: auto;
       display: flex;
       margin-left: 70%;
-      color: #e5e8eb;
+      color: #d6dbdf;
       cursor: pointer;
     }
   }
@@ -178,12 +178,13 @@
       text-decoration: dotted;
     }
     .fondo footer{
-      margin-top: 25%;
+      margin-top: 35%;
       width: auto;
       display: flex;
       margin-left: 70%;
       color: #e5e8eb;
       cursor: pointer;
+      text-decoration: none;
     }
   }
 
