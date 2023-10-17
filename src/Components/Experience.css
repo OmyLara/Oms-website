@@ -94,6 +94,16 @@
       text-decoration: dotted;
     }
 
+    .fondo footer{
+      margin-top: 70%;
+      width: auto;
+      display: flex;
+      margin-left: 60%;
+      color: #e5e8eb;
+      cursor: pointer;
+  
+    }
+
   }
 
 
@@ -102,7 +112,7 @@
     .fondo .programming{
       line-height: .7;
       margin-top: 20px;
-      margin-left: 30%;
+      margin-left: 20%;
       font-size: 150%;
     }
 
@@ -131,7 +141,7 @@
       margin-top: 40%;
       width: auto;
       display: flex;
-      margin-left: 80%;
+      margin-left: 70%;
       color: #e5e8eb;
       cursor: pointer;
     }
@@ -171,7 +181,7 @@
       margin-top: 25%;
       width: auto;
       display: flex;
-      margin-left: 80%;
+      margin-left: 70%;
       color: #e5e8eb;
       cursor: pointer;
     }
