@@ -25,7 +25,7 @@ export default function Testimonio(){
 
             <br/><br/> In my portfolio, you will find examples of projects that I have carried out with passion and dedication, always with the purpose of helping people and making a difference in their day to day. 
             <br/> I am excited to continue growing as a professional and continue to develop web solutions that have a positive impact on society.
-            <br/><br/> Technologies I mainly work with: Javascript, HTML, CSS, React, Tailwind, Github, Vite
+            <br/><br/> Technologies I mainly work with: Javascript,React,Vite, Node.JS, HTML, CSS, Tailwind, Bootstrap,Github
             
             </p>
           </div>
