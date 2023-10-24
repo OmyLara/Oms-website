@@ -1,5 +1,5 @@
 import './About-me.css';
-import Yop from '../Imagenes/yop.png';
+/*import Yop from '../Imagenes/yop.png';*/
 
 export default function Testimonio(){
 
@@ -10,11 +10,14 @@ export default function Testimonio(){
   
     <div className='contenedor-principal'>
       
-      <div className='contenedor-testimonio'>
-            <img 
+      < div className='contenedor-testimonio'>
+        {/*<img 
             className='imagen-testimonio'
             src={Yop}
-            alt="Foto de persona"  />
+            alt="Foto de persona"  
+            />*/}
+        
+            
           
           <div className='contenedor-texto-testimonio'>
             <p className='nombre-testimonio' >Hi, my name is <span>Omar Lara</span></p>
@@ -25,7 +28,7 @@ export default function Testimonio(){
 
             <br/><br/> In my portfolio, you will find examples of projects that I have carried out with passion and dedication, always with the purpose of helping people and making a difference in their day to day. 
             <br/> I am excited to continue growing as a professional and continue to develop web solutions that have a positive impact on society.
-            <br/><br/> Technologies I mainly work with: Javascript,React,Vite, Node.JS, HTML, CSS, Tailwind, Bootstrap,Github
+            <br/><br/> Technologies I mainly work with: Javascript, Typescript, React,Vite, Node.JS, HTML, CSS, Tailwind, Bootstrap, Github
             
             </p>
           </div>

@@ -55,9 +55,9 @@ border: rgb(40, 135, 195);
     height: 20%;
 }
 
-.un .icons a{
+.un .icons img{
     text-decoration: none;
-    width: 50%;
+    width: 20%;
     height: 50%;
     font-size: 150%;
     color: darkblue;
@@ -110,7 +110,7 @@ border: rgb(40, 135, 195);
     
     .un .icons a{
         text-decoration: none;
-        width: 60%;
+        width: 65%;
         height: 60%;
         font-size: 120%;
         color: darkblue;
@@ -131,7 +131,7 @@ border: rgb(40, 135, 195);
     
     .un .icons a{
         text-decoration: none;
-        width: 60%;
+        width: 50%;
         height: 60%;
         font-size: 120%;
         color: darkblue;
