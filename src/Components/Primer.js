@@ -47,7 +47,7 @@ function Primer() {
             </div>
 
             <div className="proyectos">
-                <div className="p1"><a href="https://marvel-champions-counter.netlify.app"><span ><img src={Marvel} alt="Img Marvel"/><br/></span><h1>Board Game Counter</h1></a><br/><br/><p>You can now play Marvel Champions replacing life counters with this easy app.<br/><br/><a href="https://www.fantasyflightgames.com/en/products/marvel-champions-the-card-game/" >More about Marvel Champions here.</a></p></div>
+                <div className="p1"><a href="https://marvel-champions-lifecounter.netlify.app"><span ><img src={Marvel} alt="Img Marvel"/><br/></span><h1>Board Game Counter</h1></a><br/><br/><p>You can now play Marvel Champions replacing life counters with this easy app.<br/><br/><a href="https://www.fantasyflightgames.com/en/products/marvel-champions-the-card-game/" >More about Marvel Champions here.</a></p></div>
                 <div className="p2"><a href="https://calculator-w-react.netlify.app"><span ><img src={Calcu} alt="Calculadora"/><br/></span><h1>Calculator</h1></a><br/><br/><p>Always a good project to start with when coding.<br/><br/>Use this calculator for your daily math problems.<br/><br/><br/></p></div>
                 <div className="p3"><a href="https://citas-pacientes-vite.netlify.app"><span ><img src={Prescription} alt="Img Marvel"/><br/></span><h1>Medical appointments</h1></a><br/><br/><p>No more issues when registering patients and creating appointments for your facility.<br/><br/>All patients' info in one place.<br/><br/></p></div>
             </div>
